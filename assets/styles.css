@@ -1,10 +1,13 @@
-.grid-container {
+.grid{
   display: grid;
-  border: solid 1px black;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px 80px 100px;
+  gap: 1em
 }
-.grid-item{
-    border: solid 1px black;
+.grid div{
+  background-color: blueviolet;
+  padding: 1em;
 }
-.grid-basico{
-    grid-template-columns: auto auto auto;
+.grid div:hover{
+    border: 1px solid red;
 }
