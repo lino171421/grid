@@ -42,8 +42,11 @@ div img {
   width: 100%;
   height: 80%;
 }
+/*Agregue flex a el texto de las tarjetas y las centre, espero sirva para cumplir flexbox*/
 .textoventa {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: white;
   border: 2px solid black;
   border-radius: 3px;
